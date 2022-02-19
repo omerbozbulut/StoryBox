@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		17C25E5927C1237C00FC5C62 /* Destini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Destini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C25E5927C1237C00FC5C62 /* StoryBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17C25E5C27C1237C00FC5C62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17C25E5E27C1237C00FC5C62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		17C25E6027C1237C00FC5C62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		17C25E5A27C1237C00FC5C62 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				17C25E5927C1237C00FC5C62 /* Destini.app */,
+				17C25E5927C1237C00FC5C62 /* StoryBox.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,9 +100,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		17C25E5827C1237C00FC5C62 /* Destini */ = {
+		17C25E5827C1237C00FC5C62 /* StoryBox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 17C25E6D27C1237E00FC5C62 /* Build configuration list for PBXNativeTarget "Destini" */;
+			buildConfigurationList = 17C25E6D27C1237E00FC5C62 /* Build configuration list for PBXNativeTarget "StoryBox" */;
 			buildPhases = (
 				17C25E5527C1237C00FC5C62 /* Sources */,
 				17C25E5627C1237C00FC5C62 /* Frameworks */,
@@ -112,9 +112,9 @@
 			);
 			dependencies = (
 			);
-			name = Destini;
+			name = StoryBox;
 			productName = Destini;
-			productReference = 17C25E5927C1237C00FC5C62 /* Destini.app */;
+			productReference = 17C25E5927C1237C00FC5C62 /* StoryBox.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +132,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 17C25E5427C1237C00FC5C62 /* Build configuration list for PBXProject "Destini" */;
+			buildConfigurationList = 17C25E5427C1237C00FC5C62 /* Build configuration list for PBXProject "StoryBox" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -145,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				17C25E5827C1237C00FC5C62 /* Destini */,
+				17C25E5827C1237C00FC5C62 /* StoryBox */,
 			);
 		};
 /* End PBXProject section */
@@ -373,7 +373,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		17C25E5427C1237C00FC5C62 /* Build configuration list for PBXProject "Destini" */ = {
+		17C25E5427C1237C00FC5C62 /* Build configuration list for PBXProject "StoryBox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17C25E6B27C1237E00FC5C62 /* Debug */,
@@ -382,7 +382,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		17C25E6D27C1237E00FC5C62 /* Build configuration list for PBXNativeTarget "Destini" */ = {
+		17C25E6D27C1237E00FC5C62 /* Build configuration list for PBXNativeTarget "StoryBox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17C25E6E27C1237E00FC5C62 /* Debug */,

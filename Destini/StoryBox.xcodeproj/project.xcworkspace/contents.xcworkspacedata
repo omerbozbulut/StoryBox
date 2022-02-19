@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/omer/Desktop/LearnSwift/Beta/StoryBox/Destini/StoryBox.xcodeproj">
    </FileRef>
 </Workspace>

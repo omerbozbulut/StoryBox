@@ -6,8 +6,12 @@
 //
 
 import Foundation
+import UIKit
 
 struct StoryBrain{
+    
+    var storyNumber : Int = 0
+    
     let Stories = [Story(
         story: "Your car has blown a tire on a winding road in the middle of nowhere with no cell phone reception. You decide to hitchhike. A rusty pickup truck rumbles to a stop next to you. A man with a wide brimmed hat with soulless eyes opens the passenger door for you and asks: 'Need a ride, boy?'.",
         answer1: "I'll hop in. Thanks for the help!", choice1Destination: 2,
@@ -38,7 +42,26 @@ struct StoryBrain{
                     answer1: "The", choice1Destination: 0,
                     answer2: "End", choice2Destination: 0
                    )      ]
-
+    
+    func getStoryTitle() -> String{
+        return Stories[storyNumber].story
+    }
+    
+    func getButton1Title() -> String{
+        return Stories[storyNumber].answer1
+    }
+    
+    func getButton2Title() -> String{
+        return Stories[storyNumber].answer2
+    }
+    
+    mutating func nextStory(_ choise : UIButton){
+        if Stories[storyNumber].answer1 == choise.currentTitle{
+            storyNumber = Stories[storyNumber].choice1Destination
+        }else if Stories[storyNumber].answer2 == choise.currentTitle{
+            storyNumber = Stories[storyNumber].choice2Destination
+        }
+    }
     
 }
 

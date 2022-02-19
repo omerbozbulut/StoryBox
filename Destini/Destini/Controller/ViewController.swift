@@ -16,20 +16,24 @@ class ViewController: UIViewController {
     
     var storyBrain = StoryBrain()
     
-    var storyNumber : Int = 0
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        StoryLabel.text = storyBrain.Stories[storyNumber].story
-        Choise1.setTitle(storyBrain.Stories[storyNumber].answer1, for: .normal)
-        Choise2.setTitle(storyBrain.Stories[storyNumber].answer2, for: .normal)
+        StoryLabel.text = storyBrain.getStoryTitle()
+        Choise1.setTitle(storyBrain.getButton1Title(), for: .normal)
+        Choise2.setTitle(storyBrain.getButton2Title(), for: .normal)
     }
     
     
+    @IBAction func pressedChoise(_ sender: UIButton) {
+        storyBrain.nextStory(sender)
+    }
     
     @IBAction func updateUI(_ sender: UIButton) {
-        StoryLabel.text = storyBrain.Stories[storyNumber].story
-        Choise1.setTitle(storyBrain.Stories[storyNumber].answer1, for: .normal)
-        Choise2.setTitle(storyBrain.Stories[storyNumber].answer2, for: .normal)
+        StoryLabel.text = storyBrain.Stories[storyBrain.storyNumber].story
+        Choise1.setTitle(storyBrain.getButton1Title(), for: .normal)
+        Choise2.setTitle(storyBrain.getButton2Title(), for: .normal)
         
     }
     
